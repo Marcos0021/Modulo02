@@ -1,0 +1,123 @@
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+table{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+}
+
+table tr td{
+    padding: 10px;
+}
+
+#header_box{
+    background-color: #f5f5ef;
+}
+
+#header_box img{
+    width: 300px;
+    height: 150px;
+    margin-left: 22%;
+}
+
+#nav_box{
+    border-top: 8px solid #0c5609;
+    border-bottom: 8px solid #0c5609;
+    background-color: #f1f1f1;
+    padding: 0px;
+    margin: 0px;
+    height: 45px;
+}
+
+#nav_box ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav_box li{
+    float: left;
+}
+
+#nav_box a{
+    font-family: Verdana;
+    padding: 10px;
+    text-decoration: none;
+    color: #09561a;
+}
+
+#nav_box a:hover:not(.active){
+    background-color: #05c745;
+    color: white;
+    transition: 0.4s;
+}
+
+.article_box{
+    background-color: #9ff8ae;
+    padding: 10px;
+}
+
+.article_box p{
+    font-size: 16px;
+    font-family: Arial;
+    text-align: justify;
+}
+
+.article_box h2{
+    font-family: Arial;
+    color: rgb(11, 209, 209);
+}
+
+.article_box h3{
+    text-align: center;
+    font-family: Arial;
+    color: #B3001B;
+}
+
+#saiba_mais{
+    text-align: center;
+}
+
+.article_box a{
+    background-color: #262626;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+    user-select: none;
+    transition: .3s all ease;
+}
+
+.article_box a:hover{
+    color: rgb(255, 230, 0);
+    transition: 1.5s all ease;
+}
+
+
+#image_box{
+    width: 450px;
+}
+
+#image_box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#footer_box{
+    text-align: center;
+    height: 50px;
+    background-color: #82f195;
+}
+
+.active{
+    background-color: #25e063;
+    color: white;
+}
